@@ -4,6 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+"react": "^17.0.2",
+"react-dom": "^17.0.2",
+"react-router-dom": "6",
+"react-scripts": "4.0.3"
+
 In the project directory, you can run:
 
 ### `npm start`

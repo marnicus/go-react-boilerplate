@@ -110,9 +110,7 @@ const CommentsCard: React.FC = () => {
   if (loading) {
     return <CircularProgress />;
   }
-  if (error) {
-    return <p>{error}</p>;
-  }
+
   return (
     <Card sx={{ my: 1 }}>
       <List sx={{ bgcolor: "background.paper" }}>

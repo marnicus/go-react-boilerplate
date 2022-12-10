@@ -28,9 +28,6 @@ const ArticleIndexPage: React.FC = () => {
   if (loading) {
     return <CircularProgress />;
   }
-  if (error) {
-    return <p>{error}</p>;
-  }
 
   return (
     <>

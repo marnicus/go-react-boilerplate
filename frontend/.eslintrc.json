@@ -1,7 +1,7 @@
 {
   "env": {
     "es6": true,
-    "browser" : true
+    "browser": true
   },
 
   "extends": [
@@ -10,11 +10,7 @@
     "plugin:react/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": [
-    "@typescript-eslint",
-    "react",
-    "prettier"
-  ],
+  "plugins": ["@typescript-eslint", "react", "prettier"],
   "parserOptions": {
     "ecmaVersion": 2020,
     "sourceType": "module"
@@ -25,7 +21,13 @@
     }
   },
   "rules": {
-    "no-console": "warn"
+    "no-console": "warn",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
   },
   "overrides": [
     {
